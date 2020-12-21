@@ -36,5 +36,4 @@ Using the credit card credit dataset from LendingClub create six diffrenet machi
 89% of accuracy. not precise for predicting high risk loans.  this is a sensitive model for predicting high and low risk. Balance between precision and recall for high risk is not the best.
 
 ## Summary
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+Based on the result my recommendation will be to utilize the Easy Ensemble Classifier; given its high sensitivity it is easier to detect high risk loans which is the main goal for the model. The downside is that low risk loans will be tagged as high risk, but  further investigation on a case by case basis will solve the issue. 
